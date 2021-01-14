@@ -1,9 +1,15 @@
+:root{
+    --body-background-color: rgb(156, 148, 148);
+    --nav-bar-color:  rgb(109, 79, 79);
+    --footer-background-color: rgb(44, 14, 14);
+}
 body{
-    background-color: rgb(156, 148, 148);
+    background-color: var(--body-background-color);
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
 }
 .nav-bar{
-    background-color: rgb(109, 79, 79);
+    background-color: var(--nav-bar-color);
     width: 100%;
     display:flex;
     position:fixed;
@@ -46,7 +52,7 @@ nav > ul{
 }
 #contact{
     margin-top: 200px;
-    background-color: rgb(44, 14, 14);
+    background-color: var(--footer-background-color);
     color: wheat;
     width: 100%;
     left: 0;
@@ -74,5 +80,4 @@ nav > ul{
     background-color: #6d3d37;
     color: white;
 }
-  
 
