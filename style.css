@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(156, 148, 148);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar{
+    background-color: rgb(109, 79, 79);
+    width: 100%;
+    display:flex;
+    position:fixed;
+    top:0;
+    left: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 35vw;
+}
+#header-img{
+    max-width: 330px;
+    display: block;
+    margin-left: 80%;
+    border-radius: 12px;
+    margin-top: 100px;
+}
+#header{
+    text-align: center;
+    margin-bottom: 150px;
+}
+.open-section{
+    margin-left: 40px;
+    margin-right: 65px;
+}
+.open-section > h2{
+    text-decoration: underline;
+}
+#header > div{
+    margin-bottom: 80px;
+}
