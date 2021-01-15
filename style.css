@@ -27,11 +27,9 @@ nav > ul{
     width: 35vw;
 }
 #header-img{
-    max-width: 330px;
-    display: block;
-    margin-left: 80%;
-    border-radius: 12px;
     margin-top: 100px;
+    border-radius: 12px;
+    width: 400px;
 }
 #header{
     text-align: center;
@@ -66,7 +64,7 @@ nav > ul{
 }
 .characters {
     border-collapse: collapse;
-    width: 25%;
+    width: 45%;
     padding: 30px;
 }
 .characters tr:hover {
@@ -84,18 +82,21 @@ nav > ul{
 /* styling ragnar page */
 
 .main-ragnar-info{
-    margin-top: 130px;;
+    margin-top: 130px;
+    margin-left: 50px;
 }
 
 
 /* styling lagartha page */
 
 .main-lagartha-info{
-    margin-top: 130px;;
+    margin-top: 130px;
+    margin-left: 50px;
 }
 
 /* styling rollo page */
 
 .main-rollo-info{
-    margin-top: 130px;;
+    margin-top: 130px;
+    margin-left: 50px;
 }
