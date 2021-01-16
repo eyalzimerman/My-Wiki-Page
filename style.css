@@ -4,14 +4,12 @@
     --footer-background-color: rgb(44, 14, 14);
 }
 #header-img {
-    transition: transform 1500ms;
-    margin: 0 auto;
+    border: 1px solid black;
+    animation: mymove 5s infinite;
 }
   
-#header-img:hover {
-    -ms-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2); 
+@keyframes mymove {
+    50% {border: 10px solid var(--footer-background-color);}
 }
 body{
     background-color: var(--body-background-color);
