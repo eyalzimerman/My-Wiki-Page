@@ -7,9 +7,16 @@
     border: 1px solid black;
     animation: mymove 5s infinite;
 }
-  
 @keyframes mymove {
     50% {border: 10px solid var(--footer-background-color);}
+}
+@media screen and (max-width: 850px){
+    #header-img{
+        animation: none;
+    }
+    input, select, textarea{
+        width: 50%;
+    }
 }
 body{
     background-color: var(--body-background-color);
