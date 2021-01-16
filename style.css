@@ -6,13 +6,13 @@
 #header-img {
     transition: transform 1500ms;
     margin: 0 auto;
-  }
+}
   
- #header-img:hover {
+#header-img:hover {
     -ms-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2); 
-  }
+}
 body{
     background-color: var(--body-background-color);
     font-family: Arial, Helvetica, sans-serif;
@@ -25,6 +25,9 @@ body{
     position:fixed;
     top:0;
     left: 0;
+}
+.nav-link-active{
+    background-color: var(--body-background-color);
 }
 a{
     text-decoration: none;
